@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../assets/logos/logo_blanc.png";
 import { NavLink } from "react-router-dom";
+import "../styles/header.scss";
 
 function NavBar() {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-expand-lg bg-black">
         <div className="container">
           <NavLink to="/" className="navbar-brand">
             <img src={logo} alt="logo" />

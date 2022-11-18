@@ -8,12 +8,12 @@ header {
     }
     div {
         display: block;
-        z-index: 100;
+        // z-index: 100;
     }
     ul {
         // display: flex;
         display: block;
-        z-index: 100;
+        // z-index: 100;
     }
     li {
         display: inline-block;
@@ -53,4 +53,5 @@ header {
 
 .navbar-toggler {
     background-color: white !important;
+    float: right;
 }

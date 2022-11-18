@@ -6,6 +6,7 @@ import logo_dc from "../assets/logos/logo_3.png";
 import logo_fb from "../assets/icones/facebook.png";
 import logo_ig from "../assets/icones/instagram.png";
 import logo_tw from "../assets/icones/twitter.png";
+import "../styles/footer.scss";
 
 function Footer() {
   return (
