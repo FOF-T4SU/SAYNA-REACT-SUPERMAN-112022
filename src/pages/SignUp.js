@@ -1,44 +1,39 @@
 import { React, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { UserAuth } from "../context/AuthContext";
 import "../styles/signup.scss";
 
 function SignUp() {
-  const [nom, setNom] = useState("");
-  const [prenoms, setPrenoms] = useState(""); //Decomposition
   const [email, setEmail] = useState(""); //Decomposition
   const [password, setPassword] = useState("");
-  const [repassword, setRepassword] = useState("");
-  const onSubmit = (e) => {
+  const [error, setError] = useState("");
+
+  const { createUser } = UserAuth();
+  const navigate = useNavigate();
+
+  const onSubmit = async (e) => {
     e.preventDefault();
-    console.log(nom);
-    console.log(prenoms);
+    setError("");
+    try {
+      await createUser(email, password);
+      navigate("/compte");
+    } catch (e) {
+      setError(e.message);
+      console.log(e.message);
+    }
+
     console.log(email);
     console.log(password);
-    console.log(repassword);
   };
+
   return (
     <section id="hero_sign-up">
       <div class="container">
         <form onSubmit={onSubmit}>
-          <label>Nom</label>
-          <input
-            type="text"
-            placeholder="Nom"
-            id="nom"
-            value={nom}
-            onChange={(e) => {
-              setNom(e.target.value);
-            }}
-          />
-          <label>Prenoms</label>
-          <input
-            type="text"
-            placeholder="Prenoms"
-            id="prenoms"
-            value={prenoms}
-            onChange={(e) => {
-              setPrenoms(e.target.value);
-            }}
-          />
+          <h4>Inscription</h4>
+          <p>
+            Vous avez un compte? <Link to={"/login"}>Connectez-vous?</Link>
+          </p>
           <label>Identiiant</label>
           <input
             type="email"
@@ -59,17 +54,8 @@ function SignUp() {
               setPassword(e.target.value);
             }}
           />
-          <label>Conirmer votre mot de passe</label>
-          <input
-            type="password"
-            placeholder="Conirmation du mot de passe"
-            id="repassword"
-            value={repassword}
-            onChange={(e) => {
-              setRepassword(e.target.value);
-            }}
-          />
           <button type="submit">VALIDER</button>
+          <p>{setError}</p>
         </form>
       </div>
     </section>

@@ -20,11 +20,6 @@ import "../styles/home.scss";
 function Home() {
   return (
     <main id="home">
-      {/* <div class="scroll">
-            <img class="social" src="./assets/Logos/icon_facebook.png" alt="">
-            <img class="social" src="./assets/Logos/icon_ig.png" alt="">
-            <img class="social" src="./assets/Logos/icon_tw.png" alt="">
-         </div> */}
       <section id="hero">
         <div class="container">
           <div class="content">
@@ -39,26 +34,35 @@ function Home() {
 
       <section id="batman-cinema">
         <div class="container">
-          <h1 class="titre">Batman au Cinema</h1>
+          <h1 class="titre">SUPERMAN AU CINÉMA</h1>
           <p class="description">
-            Le personnage de Batman est un super héros de l’univers de DC
-            Comics. Il a été créé par le dessinateur Bob Kane et le scénariste
-            Bill Finger et apparaît pour la première fois dans le comic book
-            Detective Comics en 1939. Batman se différencie de Superman, alors
-            héros majeur de DC, car il n’a aucun pouvoir. Il sera porté au
-            cinema pour la première fois en 1943 par Lewis Wilson et bénéficiera
-            de nombreux reboot, donnant l’occasion à de multiples acteurs
-            d’interpréter l’homme chauve-souris. Voici les trois derniers :
+            Dans la version actuelle de son histoire, Superman est né sur la
+            planète Krypton sous le nom de « Kal-El ». Encore bébé, il fut placé
+            dans un vaisseau spatial par son père, le scientifique Jor-El, et sa
+            mère, Lara, car la planète était sous la menace d'une destruction
+            totale.Le vaisseau quitta Krypton juste avant l'explosion
+            fatidique... Au terme d'un très long voyage, il atterrit sur la
+            planète Terre. Kal-El est trouvé par un couple de fermiers de
+            Smallville, (Kansas). Jonathan et Martha Kent, qui n'ont pas
+            d'enfant, décident alors de l'adopter et de garder le secret sur son
+            origine. Kal-El est rebaptisé « Clark Joseph Kent » et grandit
+            entouré de ses amis Lana Lang (son premier amour) et Pete Ross
+            jusqu'à ce que ses pouvoirs se révèlent à lui au moment de son
+            adolescence.Jeune adulte, Clark décide de s'installer à Metropolis
+            pour devenir journaliste. Il y est engagé par Perry White, le
+            rédacteur en chef du Daily Planet. Pour sauver les personnes qui lui
+            sont chers ainsi que les habitants de la Terre, Clark revêt son
+            costume et devient Superman, l’homme d’acier aux yeux du monde.
           </p>
           <div class="batman-personnage">
             <div class="batman-item">
-              <img src={img2} alt="bat_robert" width="304" height="450" />
+              <img src={img8} alt="bat_robert" width="304" height="450" />
             </div>
             <div class="batman-item">
-              <img src={img3} alt="bat_christian" width="304" height="450" />
+              <img src={img9} alt="bat_christian" width="304" height="450" />
             </div>
             <div class="batman-item">
-              <img src={img4} alt="bat_ben" width="304" height="450" />
+              <img src={img10} alt="bat_ben" width="304" height="450" />
             </div>
           </div>
         </div>
@@ -66,16 +70,20 @@ function Home() {
 
       <section id="batman-cinema">
         <div class="container">
-          <h1 class="titre">Batman au Cinema</h1>
+          <h1 class="titre">NÉMÉSIS</h1>
           <p class="description">
-            Le personnage de Batman est un super héros de l’univers de DC
-            Comics. Il a été créé par le dessinateur Bob Kane et le scénariste
-            Bill Finger et apparaît pour la première fois dans le comic book
-            Detective Comics en 1939. Batman se différencie de Superman, alors
-            héros majeur de DC, car il n’a aucun pouvoir. Il sera porté au
-            cinema pour la première fois en 1943 par Lewis Wilson et bénéficiera
-            de nombreux reboot, donnant l’occasion à de multiples acteurs
-            d’interpréter l’homme chauve-souris. Voici les trois derniers :
+            Superman mène une lutte sans fin contre de nombreux adversaires, son
+            adversaire le plus connu étant le milliardaire Lex Luthor, fils de
+            Lionel Luthor, qui déteste tout ce qu'incarne Superman et finira
+            notamment par devenir président des États-Unis, ce qui participera à
+            faire de lui le pire ennemi de Clark. Doomsday, une abomination
+            génétique qui souhaite tout détruire sur son passage, sera celui qui
+            réussira à tuer Superman. Zod est un kryptonien qui fut condamné à
+            l'emprisonnement dans la Zone Fantôme pour s'être insurgé contre les
+            autorités. Il est libéré et vient sur Terre pour la conquérir mais
+            est arrêté par Superman. Étant kryptonien, Zod possède les mêmes
+            pouvoirs que Superman, et constitue donc l'un de ses plus dangereux
+            adversaires.
           </p>
           <div class="batman-personnage">
             <div class="batman-item">
@@ -93,26 +101,28 @@ function Home() {
 
       <section id="batman-cinema">
         <div class="container">
-          <h1 class="titre">Batman au Cinema</h1>
+          <h1 class="titre">ALLIES</h1>
           <p class="description">
-            Le personnage de Batman est un super héros de l’univers de DC
-            Comics. Il a été créé par le dessinateur Bob Kane et le scénariste
-            Bill Finger et apparaît pour la première fois dans le comic book
-            Detective Comics en 1939. Batman se différencie de Superman, alors
-            héros majeur de DC, car il n’a aucun pouvoir. Il sera porté au
-            cinema pour la première fois en 1943 par Lewis Wilson et bénéficiera
-            de nombreux reboot, donnant l’occasion à de multiples acteurs
-            d’interpréter l’homme chauve-souris. Voici les trois derniers :
+            Jor-El était le père biologique de Kal-El, ainsi que le savant le
+            plus célèbre de Krypton et un membre influent du Conseil des
+            Sciences. Lorsque Krypton s’effondre il place une version
+            impuissante de lui même dans le vaisseau emportant Kal-El vers la
+            Terre afin de lui apporter les réponses à ses questions quand il
+            grandira. Sur Terre Clark est pris en charge par Jonathan et Martha
+            Kent qui l’élèvent comme leur propre fils. Lorsque John sera mort,
+            Clark pourra compter sur le soutien indéféctible de sa mère. Une
+            fois engagé au Daily Planet, il rencontrera Loïs Lane qui deviendra
+            sa partenaire et son seul “véritable amour”
           </p>
           <div class="batman-personnage">
             <div class="batman-item">
-              <img src={img8} alt="bat_robert" width="304" height="450" />
+              <img src={img2} alt="bat_robert" width="304" height="450" />
             </div>
             <div class="batman-item">
-              <img src={img9} alt="bat_christian" width="304" height="450" />
+              <img src={img3} alt="bat_christian" width="304" height="450" />
             </div>
             <div class="batman-item">
-              <img src={img10} alt="bat_ben" width="304" height="450" />
+              <img src={img4} alt="bat_ben" width="304" height="450" />
             </div>
           </div>
         </div>
@@ -121,18 +131,28 @@ function Home() {
       {/* <!-- JUSTICE LEAGUE --> */}
       <section id="league">
         <div className="container">
-          <h2>JUSTICE LEAGUE</h2>
+          <h2>BATMAN V SUPERMAN</h2>
           <p>
-            Lorsque la Terre est menacée les plus grands super-héros s’allient
-            pour la protéger. Ils doivent cependant apprendre à se faire
-            confiance mutuellement et à faire équipe ce qui ne sera pas chose
-            aisée. Ensemble ils forment la Justice League, les plus grands
-            super-héros de la Terre, ceux vers qui le monde entier se tourne
-            lorsque les menaces extraterrestres ou surnaturelles menacent son
-            existence.
+            Le monde n’est pas assez grand pour deux super héros. Alors que
+            Superman se battait contre Zod, l’affrontement fait des dégats et
+            détruit partiellement la ville de Métropolis. Bruce Wayne alors
+            présent dans la ville assiste, impuissant, à l’effondrement de la
+            ville qui fait beaucoup de victimes. Wayne est alors persuadé que
+            Superman causera un jour la perte de l'Humanité et qu'il est
+            inévitable de se préparer à l'éliminer. Devenu méfiant il se demande
+            si l'homme de fer, cet extraterrestre de Krypton, qui peut à lui
+            seul détruire le monde d'une simple pichenette, décidera un jour de
+            ne plus défendre la Terre, voire même de causer sa perte. De son
+            côté Superman d’une part cherche à se défendre mais retourne
+            l’offensive contre Batman. Ce dernier n'est plus que l'ombre de
+            lui-même. Devenu un justicier impitoyable, mégalomane et cruel à la
+            suite du meurtre de son ancien partenaire Robin par le Joker, il
+            n'hésite plus à violer son code moral en éliminant et marquant au
+            fer les criminels. Superman souhaite simplement lui rappeler le code
+            moral des “justicier” en usant de la force s’il le faut pour que
+            Batman cesse son comportement abusif.
           </p>
         </div>
-        {/* <img src={Bathome11} alt="league" /> */}
       </section>
 
       {/* <!-- MULTIMEDIA --> */}
@@ -144,18 +164,15 @@ function Home() {
             <img src={img12} alt="begins_bat" />
             <div>
               <p>ACTION, ADVENTURE</p>
-              <p>Batman Begins</p>
+              <p>Superman Man of Steel</p>
               <p>
-                IMDB : <span>7.2</span>
+                IMDB : <span>7.1</span>
               </p>
               <p>
-                Le jeune Bruce Wayne assiste impuissant au meurtre de ses
-                parents. Profondément traumatisé, il grandit obnubilé par un
-                désir de vengeance. La Ligue des ombres, une secte de guerriers
-                ninja dirigée par Ra's al Ghul, se chargera de son entraînement.
-                De retour chez lui à Gotham, avec l'aide de son majordome Alfred
-                Pennyworth, Bruce Wayne se lance alors dans la lutte contre le
-                crime sous le nom de Batman.
+                Clark Kent, malgré son apparence humaine normale, est l'un des
+                derniers membres d'une race éteinte. Il se retrouve forcé de
+                révéler son identité lorsque la Terre est envahie par une armée
+                de survivants qui menacent détruire la planète.
               </p>
             </div>
           </div>
@@ -171,7 +188,6 @@ function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          {/* <img src={img15} alt="bande_annonce" /> */}
         </div>
       </section>
 
@@ -256,11 +272,13 @@ function Home() {
           <img src={guillemet_1} alt="guillement-gauche" />
           <div>
             <p>
-              La seule façon raisonnable de vivre en ce bas monde, c'est en
-              dehors des règles.
+              Il y eu des temps célestes, les temps d’avant, emplit de
+              merveilles : des diamants de la plus belle eau. Plus dure est la
+              chute, la chute sur Terre, et ce qui chute est déchu. Dans mon
+              rêve, elles m’emportaient vers la lumière. Sublime mensonge !
             </p>
             <p className="auteur">
-              The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
+              Batman v Superman : l’Aube de la Justice, Batman.
             </p>
           </div>
           <img src={guillemet_2} alt="guillement-droite" />

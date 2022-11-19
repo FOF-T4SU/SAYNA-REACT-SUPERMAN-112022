@@ -56,9 +56,9 @@
     //     text-align: center;
     // }
     #league {
-        // background: url(../assets/images/img11.png);
-        // background-size: cover;
-        backdrop-filter: url(../assets/images/img11.png) sepia(20%);
+        background: url(../assets/images/img11.png);
+        background-size: cover;
+        filter: opacity(25%);
         min-height: 75vh;
         h2,
         p {
@@ -103,7 +103,10 @@
     }
     // Design de la section contact
     #contact {
-        background: linear-gradient(135deg, $black 50%, $blue 100%);
+        // background: linear-gradient(135deg, $black 50%, $blue 100%);
+        background: url(../assets/images/img16.png);
+        background-size: cover;
+        filter: opacity(50%);
         margin: 50px 0px;
         padding: 30px 0px;
         h2 {

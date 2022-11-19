@@ -18,12 +18,12 @@ header {
     li {
         display: inline-block;
         list-style: none;
-        padding: 15px;
+        padding: 10px;
     }
     a {
         text-decoration: none;
         color: $white;
-        font-size: 22px;
+        font-size: 17px;
         // z-index: 100;
         &:hover {
             text-decoration: underline;
